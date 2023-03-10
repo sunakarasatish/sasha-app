@@ -18,6 +18,15 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>sasha-s</name>
+      <url>http://13.232.248.220:8081/repository/sasha_snapshot_repo/</url>
+    </repository>
+  </distributionManagement>
+
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
